@@ -1,0 +1,7 @@
+.searchContainer {
+  @apply max-w-xl w-full border border-black rounded-sm;
+
+  .inputContainer {
+    @apply w-full p-2 outline-none bg-transparent;
+  }
+}

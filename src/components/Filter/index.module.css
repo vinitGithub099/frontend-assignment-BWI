@@ -1,0 +1,7 @@
+.filterContainer {
+  @apply max-w-80 border border-black;
+
+  .inputContainer {
+    @apply w-full p-2 outline-none;
+  }
+}

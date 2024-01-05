@@ -1,0 +1,23 @@
+.pageContainer {
+  @apply w-full h-screen p-2 bg-gray-50;
+
+  .formContainer {
+    @apply mx-auto mt-20 max-w-md bg-white shadow-md rounded-md;
+
+    .heading {
+      @apply w-full mx-auto border-b-2 p-4 text-xl font-semibold;
+    }
+
+    .loginForm {
+      @apply w-full mx-auto px-4 py-8 flex flex-col gap-4;
+    }
+
+    .input {
+      @apply w-full p-2 outline-none border-b-2 border-b-gray-400 focus:border-b-2 focus:border-b-blue-500;
+    }
+
+    .submitButton {
+      @apply w-full my-4 border-2 border-blue-500 p-2 rounded-md font-semibold hover:bg-blue-500 hover:text-white transition duration-200 ease-linear;
+    }
+  }
+}

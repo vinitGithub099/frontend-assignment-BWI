@@ -1,0 +1,15 @@
+.navbar {
+  @apply w-full px-8 py-2 flex gap-4 shadow-md sticky top-0 bg-white;
+
+  .logoContainer {
+    @apply w-full text-xl italic underline;
+  }
+
+  .navLinks {
+    @apply w-full flex items-end justify-center gap-8;
+
+    .navLink {
+      @apply px-2 hover:cursor-pointer border border-white hover:border-b-black transition duration-200 ease-linear;
+    }
+  }
+}

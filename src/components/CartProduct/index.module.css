@@ -1,0 +1,55 @@
+.cartProductContainer {
+  @apply w-full my-4 p-2 flex flex-col gap-4 bg-white rounded-md;
+
+  .cartProduct {
+    @apply w-full flex flex-row;
+
+    .imageContainer {
+      @apply w-1/2 p-2;
+
+      .image {
+        @apply object-contain;
+      }
+    }
+
+    .productInfo {
+      @apply w-1/2 p-2;
+
+      .title {
+        @apply text-lg font-bold py-2;
+      }
+
+      .description {
+        @apply w-full text-xs py-2;
+      }
+
+      .priceButtonContainer {
+        @apply w-full flex flex-row items-center;
+
+        .price {
+          @apply w-full text-lg font-semibold;
+        }
+
+        .button {
+          @apply w-full px-2 py-1 border-2 border-blue-500 rounded-sm hover:bg-blue-500 hover:text-white transition duration-150 ease-in-out;
+        }
+      }
+    }
+  }
+
+  .infoContainer {
+    @apply w-full flex px-4 flex-row gap-2;
+
+    .infoItem {
+      @apply w-full border p-2 bg-slate-200 rounded-md;
+
+      .label {
+        @apply w-full font-semibold;
+      }
+
+      .value {
+        @apply w-full;
+      }
+    }
+  }
+}
